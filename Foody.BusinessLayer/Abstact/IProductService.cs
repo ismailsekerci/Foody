@@ -9,5 +9,6 @@ namespace Foody.BusinessLayer.Abstact
 {
     public interface IProductService : IGenericServise<Product>
     {
+        List<Product> TProductListWithCategory();
     }
 }
